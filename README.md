@@ -5,9 +5,9 @@ What does the `mystery()` function in the following piece of code do? Add your
 answer to this markdown file.
 
 ```javascript
-function mystery(a) {
-    if(a.length == 1) return a[0];
-    var foo = mystery(a.slice(1, a.length))
+function mystery(a) { // This function takes in an array.
+    if(a.length == 1) return a[0]; // If the length of the array is comparatively equal to 1 then the function returns the value at the 0 index position of the array. 
+    var foo = mystery(a.slice(1, a.length)) // The variabel foo is set equal to the 
     if(foo > a[0]) return foo;
     else return a[0];
 }
