@@ -13,4 +13,7 @@ function mystery(a) { // This function takes in an array.
 }
 ```
 // This function uses a recursive method to search a through a list of numbers for the highest value. The recusive method allows for the iteration through the entire list of numbers. While slicing the array down in size 
-// until foo becomes the highest value in the list and the list is equal to length of 1. 
+// until foo becomes the highest value in the list and the list is equal to length of 1. The slice method returns the selected elements as a new array this does not change the original array. 
+
+// https://www.w3schools.com/jsref/jsref_slice_array.asp
+
