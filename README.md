@@ -16,4 +16,5 @@ function mystery(a) { // This function takes in an array.
 // until foo becomes the highest value in the list and the list is equal to length of 1. The slice method returns the selected elements as a new array this does not change the original array. 
 
 // https://www.w3schools.com/jsref/jsref_slice_array.asp
+// I recieved help from the TA and reviewed my repository from last semester. 
 
